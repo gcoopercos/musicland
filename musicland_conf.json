@@ -1,0 +1,49 @@
+{
+    "local_library_ref": "Enterprise",
+    "music_libraries" : {
+        "Saturn": {
+            "library_root": "/home/music/library/",
+            "view_root": "/home/music/library_coco/",
+            "clementine_db_file": "/home/colleen/.config/Clementine/clementine.db",
+            "username": "colleen",
+            "network_host": "saturn.local",
+            "network_sshport": "22"
+        },
+        "ColleenOnEnterprise": 
+        {
+            "library_root": "/mnt/storage1/music/library/",
+            "view_root": "/mnt/storage1/music/library/",
+            "clementine_db_file": "/home/gregory/devel/plist_work/musicland/coldb/clementine.db",
+            "username": "gregory",
+            "network_host": "enterprise.local",
+            "network_sshport": "22"
+        },
+        "Enterprise": 
+        {
+            "library_root": "/mnt/storage1/music/library/",
+            "view_root": "/mnt/storage1/music/library/",
+            "clementine_db_file": "/home/gregory/.config/Clementine/clementine.db",
+            "username": "gregory",
+            "network_host": "enterprise.local",
+            "network_sshport": "22"
+        },
+        "Wave":
+        {
+            "library_root": "/media/gcooper/data/music/library/",
+            "view_root": "/media/gcooper/data/music/library_test/",
+            "clementine_db_file": "/home/gcooper/.config/Clmenetine/clementine.db",
+            "username": "gcooper",
+            "network_host": "wave.local",
+            "network_sshport": "22"
+        },
+        "Taos":
+        {
+            "library_root": "/media/data/music/library/",
+            "view_root": "/media/data/music/library/",
+            "clementine_db_file": "/home/colleen/.config/Clmenetine/clementine.db",
+            "username": "colleen",
+            "network_host": "taos.local",
+            "network_sshport": "22"
+        }
+    }
+}

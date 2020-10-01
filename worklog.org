@@ -1,0 +1,24 @@
+
+* Functionality to provide
+** Library file management (cp and scp functionality) [2/4]
+  - [X] Grab remote clementine.db file to work with
+  - [X] Grab local clementine.db file for a user to work with
+  - [ ] Grab clementine.db file specified on command line to work with
+  - [ ] Integrate grabs into musicland
+
+
+** Clementine.db functionality [1/5]
+  - [X] List playlists in library
+  - [ ] Determine version of clementine.db file
+  - [ ] Export playlists matching filter from clementine.db file
+  - [ ] Export musiclist for filtered playlists
+
+** Volumio functionality provided [2/4]
+  - [X] List playlists
+  - [ ] Remove playlists
+  - [X] Add/replace playists and music from playlists exported from clementine.db
+  - [ ] Add ability to configure volumio locations
+
+** ==== View management functionality [1/1]
+  - [X] Update view links based on playlist
+
